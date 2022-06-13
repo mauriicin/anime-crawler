@@ -1,0 +1,28 @@
+{
+  "name": "anime-crawler",
+  "version": "1.0.0",
+  "description": "API Rest para sistemas de animes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriicin/anime-crawler-api.git"
+  },
+  "author": "Maurício Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauriicin/anime-crawler-api/issues"
+  },
+  "homepage": "https://github.com/mauriicin/anime-crawler-api#readme",
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2"
+  }
+}
